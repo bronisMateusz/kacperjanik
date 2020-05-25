@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron as Jumbo, Container, Media, Row, Col, Image } from 'react-bootstrap';
+import { Jumbotron as Jumbo, Container, Row, Col, Image } from 'react-bootstrap';
 import styled from 'styled-components';
 import jumboImage from './assets/jumboImage.jpg';
 import aboutMeBackground from './assets/aboutMeBackground.jpg';

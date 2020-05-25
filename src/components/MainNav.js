@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar, Nav, Image, Button } from 'react-bootstrap';
 import styled from 'styled-components';
-import pageLogo from '../pageLogo.svg';
+import pageLogo from '../assets/pageLogo.svg';
 
 const Styles = styled.div`
     .navbar{
