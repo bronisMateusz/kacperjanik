@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron as Jumbo, Container, Row, Col, Image } from 'react-bootstrap';
+import { Jumbotron as Jumbo, Container, Row, Col, Image, Button} from 'react-bootstrap';
 import styled from 'styled-components';
 import jumboImage from './assets/jumboImage.jpg';
 import aboutMeBackground from './assets/aboutMeBackground.jpg';
@@ -30,12 +30,12 @@ const Styles = styled.div`
     }
 
     .jumbo-subtitle {
-        font-size: 1.6rem;
+        font-size: 1.6em;
         color: #A4A4A4;
     }
 
     .jumbo-title {
-        font-size: 5rem;
+        font-size: 5em;
         letter-spacing: 3rem;
         margin-right: -50px;
     }
@@ -102,8 +102,8 @@ export const Home = () => (
     <Styles>
         <Jumbo className="jumbo" fluid>
             <Container>
-                <h3 className="jumbo-subtitle">trener personalny</h3>
-                <h2 className="jumbo-title">Kacper<br />Janik</h2>
+                <h3 className="jumbo-subtitle">...</h3>
+                <h2 className="jumbo-title">...</h2>
             </Container>
         </Jumbo>
         <Row className="about-me">
@@ -123,59 +123,63 @@ export const Home = () => (
         <Row className="offer-section">
             <Container fluid>
                 <Row>
-                    <Col lg={7}>
+                    <Col lg={7} className="align-self-center">
                         <div className="offer-image offer-image1">
                         </div>
                     </Col>
-                    <Col lg={5} className="align-self-center p-5">
-                        <h3>indywidualnie rozpisana</h3>
-                        <h2>dieta</h2>
+                    <Col lg={5} className="align-self-center">
+                        <h2>indywidualnie rozpisana dieta</h2>
+                        <h3>dla ciebie oraz twoich możliwości</h3>
                         <div className="price">
-                            <p>od 000 zł</p>
+                            <p>129 zł</p>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                        <p>W ramach tej opcji otrzymasz ode mnie elastyczną dietę dopasowaną indywidualnie dla Ciebie. Nie wyznaczam Ci sztywnych założeń co do produktów, które będziesz spożywać. Posiłki możesz komponować w dowolny sposób odpowiadający Twoim preferencjom korzystając z wytycznych i wskazówek, które ułatwią Ci drogę do wyznaczonego celu. Taki schemat diety z pewnością Ci się spodoba, a co najważniejsze będzie skuteczny i wyrobi w Tobie dobre i długotrwałe nawyki żywieniowe.</p>
+                        <Button variant="dark" size="lg">więcej</Button>
                     </Col>
                 </Row>
                 <Row>
-                    <Col lg={5} className="align-self-center p-5">
-                        <h3>indywidualnie dopasowane</h3>
-                        <h2>treningi</h2>
-                        <div className="price">
-                            <p>od 000 zł</p>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                    </Col>
-                    <Col lg={7}>
+                    <Col lg={7} className="align-self-center">
                         <div className="offer-image offer-image2">
                         </div>
                     </Col>
+                    <Col lg={5} className="align-self-center">
+                        <h2>indywidualnie dopasowany trening</h2>
+                        <h3>dla ciebie, twoich możliwości oraz celów</h3>
+                        <div className="price">
+                            <p>99 zł</p>
+                        </div>
+                        <p>Marzysz o poprawie swojej masy mięśniowej? A może chcesz zyskać więcej siły, wzmocnić wytrzymałość lub wydolność? Być może chcesz po prostu zacząć swoją przygodę z siłownią i nie wiesz jak się do tego zabrać w najlepszy sposób? Rozpisany przeze mnie plan treningowy indywidualnie dla Ciebie z pewnością Ci to wszystko ułatwi! </p>
+                        <Button variant="dark" size="lg">więcej</Button>
+                    </Col>
                 </Row>
                 <Row>
-                    <Col lg={7}>
+                    <Col lg={7} className="align-self-center">
                         <div className="offer-image offer-image3">
                         </div>
                     </Col>
-                    <Col lg={5} className="align-self-center p-5">
-                        <h3>doskonale dobrane</h3>
-                        <h2>pakiety indywidualne</h2>
+                    <Col lg={5} className="align-self-center">
+                        <h2>specjalnie dobrany</h2>
+                        <h3>dla ciebie pakiet indywidywidualny (dieta, plan treningowy, suplementacja)</h3>
                         <div className="price">
-                            <p>od 000 zł</p>
+                            <p>179 zł</p>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                        <p>Spersonalizowany dla Ciebie pakiet pozwalający Ci w odpowiedni sposób połączyć treningi z dietą i uzupełnienie wszystkiego suplementacją dla osiągnięcia jak najlepszych efektów.  Uwzględnia Twoje preferencje oraz zastrzeżenia. </p>
+                        <Button variant="dark" size="lg">więcej</Button>
                     </Col>
                 </Row>
                 <Row>
-                    <Col lg={5} className="align-self-center p-5">
-                        <h3>idealny dla wymagających</h3>
-                        <h2>pakiet vip!</h2>
-                        <div className="price">
-                            <p>od 000 zł</p>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                    </Col>
-                    <Col lg={7}>
+                    <Col lg={7} className="align-self-center">
                         <div className="offer-image offer-image4">
                         </div>
+                    </Col>
+                    <Col lg={5} className="align-self-center">
+                        <h2>pakiet dla najbardziej wymagających</h2>
+                        <h3>(dieta, plan treningowy, suplementacja, opieka trenerska)</h3>
+                        <div className="price">
+                            <p>259 zł</p>
+                        </div>
+                        <p>Ta opcja z pewnością trafi do osób najbardziej wymagających. Jest to połączenie wszystkich powyższych pakietów wraz z możliwością konsultacji na bieżąco Twoich postępów, zastrzeżeń i rozwiązywania wszelkich wątpliwości. Ponadto regularnie w wyznaczonym przeze mnie czasie wysyłasz raporty z poszczególnymi parametrami i tym jak przepracowałeś otrzymana ode mnie założenia dietetyczno-treningowe dzięki czemu w łatwy sposób będziemy mogli wprowadzać zmiany dla uzyskiwania ciągłych efektów.</p>
+                        <Button variant="dark" size="lg">więcej</Button>
                     </Col>
                 </Row>       
              </Container>

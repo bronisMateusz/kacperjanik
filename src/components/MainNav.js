@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, Image, Button } from 'react-bootstrap';
+import { Navbar, Nav, Image} from 'react-bootstrap';
 import styled from 'styled-components';
 import pageLogo from '../assets/pageLogo.svg';
 
@@ -40,7 +40,7 @@ export const MainNav = () => (
     <Styles>
         <Navbar variant="dark" expand="lg" fixed="top">
             <Navbar.Brand href="/">
-                <Image src={pageLogo} alt="logo" height="50px" />
+                <Image src={pageLogo} alt="logo" height="35px" />
             </Navbar.Brand>
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
@@ -48,7 +48,6 @@ export const MainNav = () => (
                     <Nav.Item><Nav.Link href="/">Główna</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href="/Offer">Oferta</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href="/Contact">Kontakt</Nav.Link></Nav.Item>
-                    <Nav.Item><Button href="/Login">ZALOGUJ</Button></Nav.Item>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
