@@ -87,7 +87,6 @@ const Styles = styled.div`
 
     .offer-section .offer-item .offer-img{
         padding: 0;
-        height:
     }
 
     .offer-section .offer-item .offer-dscr{
