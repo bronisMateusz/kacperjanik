@@ -4,7 +4,6 @@ import { Layout } from './components/Layout';
 import { Home } from './Home';
 import { Offer } from './Offer';
 import { Contact } from './Contact';
-import { LogIn } from './LogIn';
 import { NoMatch } from './NoMatch';
 import { MainNav } from './components/MainNav';
 
@@ -21,7 +20,6 @@ class App extends Component {
               <Route exact path="/" component={Home} />
               <Route path="/oferta" component={Offer} />
               <Route path="/kontakt" component={Contact} />
-              <Route path="/zaloguj" component={LogIn} />
               <Route component={NoMatch} />
             </Switch>
           </Router>
