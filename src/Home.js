@@ -6,10 +6,12 @@ import meImage from './assets/meImage.png';
 export const Home = () => (
     <Container className="p-0" fluid>
         <Jumbo className="jumbo" fluid>
-            <Container>
-                <h3 className="jumbo-subtitle">...</h3>
-                <h2 className="jumbo-title">...</h2>
-            </Container>
+            <Row>
+                <Col lg={{span: 6, offset: 5}}>
+                    <h3 className="jumbo-subtitle">trener personalny</h3>
+                    <h2 className="jumbo-title">Kacper Janik</h2>
+                </Col>
+            </Row>
         </Jumbo>
         <Row className="about-me">
             <Container>

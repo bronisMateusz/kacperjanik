@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
 h2,h3,h4,h5,h6{
     text-transform: uppercase;
     margin: 0;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
 }
 
 .jumbo {
@@ -9,24 +19,28 @@ h2,h3,h4,h5,h6{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
     background: url('./assets/jumboImage.jpg') no-repeat bottom;
     background-size: cover;
     color: #FFFFFF;
     height: 95vh;;
     z-index: -2;
-    text-align:right;
+    text-align:center;
 }
 
-.jumbo-subtitle {
-    font-size: 1.6em;
+.jumbo .jumbo-subtitle {
     color: #A4A4A4;
+    font-size: 1.25em;
+    letter-spacing: 0.125rem;
+    font-weight: 500;
+    margin-bottom: 15px;
 }
 
-.jumbo-title {
-    font-size: 5em;
-    letter-spacing: 3rem;
-    margin-right: -50px;
+.jumbo .jumbo-title {
+    font-size: 3.75em;
+    letter-spacing: 1.125rem;
+    font-weight: 700;
+    margin-right: -20px;
+    line-height: 1.25em;
 }
 
 .section-title,
@@ -36,9 +50,19 @@ h2,h3,h4,h5,h6{
     border-left: 10px solid #FFFFFF;
 }
 
+.section-title{
+    font-weight: 700;
+}
+
+.section-subtitle{
+    font-weight: 500;
+    color: #A4A4A4;
+
+}
+
 .about-me {
     background: url('./assets/aboutMeBackground.jpg') no-repeat;
-    padding: 50px 15px 0px;
+    padding: 50px 20px 0px;
     margin: 0;
 }
 
@@ -63,6 +87,7 @@ h2,h3,h4,h5,h6{
 .offer-section .offer-item .offer-price{
     margin: 30px auto 10px;
     font-size: 1.6rem;
+    font-weight: 700;
     text-transform: uppercase;
     text-align: left;
     color: #BB9847;
@@ -86,6 +111,35 @@ h2,h3,h4,h5,h6{
     border: 0;
 }
 
+@media (min-width: 576px){
+    .jumbo{
+        text-align: right;
+    }
+
+    .jumbo .jumbo-title{
+        letter-spacing: 2rem;
+        margin-right: -30px;
+    }
+
+    .about-me {
+        padding: 50px 0px 0px;
+    }
+}
+
+@media (min-width: 768px){
+    .jumbo .jumbo-subtitle {
+        font-size: 1.25em;
+        letter-spacing: 0.25rem;
+        margin: 0 25px 20px 0;
+    }
+    
+    .jumbo .jumbo-title {
+        font-size: 4em;
+        letter-spacing: 3rem;
+        margin-right: -20px;
+    }
+}
+
 @media (max-width: 991px){
     .offer-section .offer-item .offer-info{
         padding: 50px 50px 0px;
@@ -93,6 +147,16 @@ h2,h3,h4,h5,h6{
 }
 
 @media (min-width: 992px){
+    .jumbo .jumbo-subtitle {
+        margin-right: -25px;
+    }
+    
+    .jumbo .jumbo-title {
+        font-size: 4em;
+        letter-spacing: 3rem;
+        margin-right: -70px;
+    }
+
     .offer-section .offer-item .offer-right{
         padding: 0px 50px 0px 20px;
     }
@@ -111,6 +175,17 @@ h2,h3,h4,h5,h6{
 }
 
 @media (min-width: 1200px){
+    .jumbo .jumbo-subtitle {
+        font-size: 1.5em;
+        letter-spacing: 0.25rem;
+    }
+    
+    .jumbo .jumbo-title {
+        font-size: 4.5em;
+        letter-spacing: 3rem;
+        margin-right: -70px;
+    }
+
     .offer-section .offer-item .offer-right{
         padding-right: 0px;
     }
