@@ -1,136 +1,10 @@
 import React from 'react';
 import { Jumbotron as Jumbo, Container, Row, Col, Image} from 'react-bootstrap';
-import styled from 'styled-components';
 import jumboImage from './assets/jumboImage.jpg';
-import aboutMeBackground from './assets/aboutMeBackground.jpg';
 import meImage from './assets/meImage.png';
-import offer1Image from './assets/offer1Image.jpg';
-import offer2Image from './assets/offer2Image.jpg';
-import offer3Image from './assets/offer3Image.jpg';
-import offer4Image from './assets/offer4Image.jpg';
-
-const Styles = styled.div`
-    Row, COl{
-        margin: 0;
-        padding: 0;
-    }
-
-    h2,h3,h4,h5,h6{
-        text-transform: uppercase;
-        margin: 0;
-    }
-
-    .jumbo {
-        margin: 0;
-        padding: 0px 15px;
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-end;
-        background: url(${jumboImage}) no-repeat bottom;
-        background-size: cover;
-        color: #FFFFFF;
-        height: 95vh;;
-        z-index: -2;
-        text-align:right;
-    }
-
-    .jumbo-subtitle {
-        font-size: 1.6em;
-        color: #A4A4A4;
-    }
-
-    .jumbo-title {
-        font-size: 5em;
-        letter-spacing: 3rem;
-        margin-right: -50px;
-    }
-
-    .section-title,
-    .section-subtitle{
-        margin: 0;
-        padding-left: 10px;
-        border-left: 10px solid #FFFFFF;
-    }
-
-    .about-me {
-        background: url(${aboutMeBackground}) no-repeat;
-        padding: 50px 15px 0px;
-        margin: 0;
-    }
-
-    .about-me .section-title {
-        margin-bottom: 25px;
-        color: #FFFFFF;
-    }
-
-    .about-me p{
-        text-align: justify;
-    }
-
-    .offer-section{
-        background-color: #141414;
-        color: #FFFFFF;
-    }
-
-    .offer-section .offer-item{
-        margin: 50px auto;
-    }
-
-    .offer-section .offer-item .offer-price{
-        margin: 30px auto 10px;
-        font-size: 1.6rem;
-        text-transform: uppercase;
-        text-align: left;
-        color: #BB9847;
-    }
-
-    .offer-section .offer-item .offer-img{
-        padding: 0;
-    }
-
-    .offer-section .offer-item .offer-dscr{
-        text-align: justify;
-        margin: 0;
-    }
-
-    @media (max-width: 991px){
-        .offer-section .offer-item .offer-info{
-            padding: 50px 50px 0px;
-        }
-    }
-
-    @media (min-width: 992px){
-        .offer-section .offer-item .offer-right{
-            padding: 0px 50px 0px 20px;
-        }
-
-        .offer-section .offer-item .offer-left{
-            padding: 0px 20px 0px 50px;
-        }
-    }
-
-    @media (max-width: 1199.98px){
-        .offer-section .offer-container{
-            margin: 0;
-            padding: 0;
-            max-width: 100%;
-        }
-    }
-
-    @media (min-width: 1200px){
-        .offer-section .offer-item .offer-right{
-            padding-right: 0px;
-        }
-
-        .offer-section .offer-item .offer-left{
-            padding-left: 0px;
-        }
-    }    
-`;
 
 export const Home = () => (
-    <Styles>
+    <Container className="p-0" fluid>
         <Jumbo className="jumbo" fluid>
             <Container>
                 <h3 className="jumbo-subtitle">...</h3>
@@ -238,16 +112,16 @@ export const Home = () => (
         </Row>
         <Row className="advantages-section">
             <Container>
-                <h2>Dlaczego warto ze mną ćwiczyć</h2>
+                <h2 className="section-title">Dlaczego warto podjąć ze mną współpracę?</h2>
                 <Row>
-                    <Col>
+                    <Col md="6">
                         Super zalety
                     </Col>
-                    <Col>
+                    <Col md="6">
                         Super zalety2
                     </Col>
                 </Row>
             </Container>
         </Row> 
-    </Styles>
+    </Container>
 )

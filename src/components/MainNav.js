@@ -45,7 +45,8 @@ export const MainNav = () => (
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
                 <Nav className="ml-auto">
-                    <Nav.Item><Nav.Link href="/">Główna</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/">Start</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/">O mnie</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href="/Offer">Oferta</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href="/Contact">Kontakt</Nav.Link></Nav.Item>
                 </Nav>

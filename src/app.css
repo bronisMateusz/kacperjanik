@@ -1,0 +1,121 @@
+h2,h3,h4,h5,h6{
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.jumbo {
+    margin: 0;
+    padding: 0px 15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background: url('./assets/jumboImage.jpg') no-repeat bottom;
+    background-size: cover;
+    color: #FFFFFF;
+    height: 95vh;;
+    z-index: -2;
+    text-align:right;
+}
+
+.jumbo-subtitle {
+    font-size: 1.6em;
+    color: #A4A4A4;
+}
+
+.jumbo-title {
+    font-size: 5em;
+    letter-spacing: 3rem;
+    margin-right: -50px;
+}
+
+.section-title,
+.section-subtitle{
+    margin: 0;
+    padding-left: 10px;
+    border-left: 10px solid #FFFFFF;
+}
+
+.about-me {
+    background: url('./assets/aboutMeBackground.jpg') no-repeat;
+    padding: 50px 15px 0px;
+    margin: 0;
+}
+
+.about-me .section-title {
+    margin-bottom: 25px;
+    color: #FFFFFF;
+}
+
+.about-me p{
+    text-align: justify;
+}
+
+.offer-section{
+    background-color: #141414;
+    color: #FFFFFF;
+}
+
+.offer-section .offer-item{
+    margin: 50px auto;
+}
+
+.offer-section .offer-item .offer-price{
+    margin: 30px auto 10px;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    text-align: left;
+    color: #BB9847;
+}
+
+.offer-section .offer-item .offer-img{
+    padding: 0;
+}
+
+.offer-section .offer-item .offer-dscr{
+    text-align: justify;
+    margin: 0;
+}
+
+.advantages-section{
+    background-color: #BB9847;
+}
+
+.advantages-section .section-title{
+    text-align: center;
+    border: 0;
+}
+
+@media (max-width: 991px){
+    .offer-section .offer-item .offer-info{
+        padding: 50px 50px 0px;
+    }
+}
+
+@media (min-width: 992px){
+    .offer-section .offer-item .offer-right{
+        padding: 0px 50px 0px 20px;
+    }
+
+    .offer-section .offer-item .offer-left{
+        padding: 0px 20px 0px 50px;
+    }
+}
+
+@media (max-width: 1199.98px){
+    .offer-section .offer-container{
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1200px){
+    .offer-section .offer-item .offer-right{
+        padding-right: 0px;
+    }
+
+    .offer-section .offer-item .offer-left{
+        padding-left: 0px;
+    }
+}
