@@ -117,10 +117,72 @@ export const Home = () => (
                 <h2 className="section-title">Dlaczego warto podjąć ze mną współpracę?</h2>
                 <Row>
                     <Col md="6">
-                        Super zalety
+                        <Row>
+                            <Col md="2">
+                                Obrazek                                
+                            </Col>
+                            <Col>
+                                <p>Zapewnię Ci wiedzę popartą praktyką i doświadczeniem.</p>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col md="2">
+                                Obrazek                                
+                            </Col>
+                            <Col>
+                                <p>Zadbam by każdy element treningu był dopasowany do Twoich możliwości i celu.</p>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col md="2">
+                                Obrazek                                
+                            </Col>
+                            <Col>
+                                <p>Pomogę Ci wyrobić długotrwałe nawyki żywieniowe i treningowe </p>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col md="2">
+                                Obrazek                                
+                            </Col>
+                            <Col>
+                                <p>Nauczysz się jak komponować posiłki i nie mieć zbędnego stresu o dietę przed wyjściami czy wyjazdami.</p>
+                            </Col>
+                        </Row>
                     </Col>
                     <Col md="6">
-                        Super zalety2
+                        <Row>
+                            <Col md="2">
+                                Obrazek                                
+                            </Col>
+                            <Col>
+                                <p>Stale będę kontrolował Twoje postępy i wprowadzał zmiany, by osiągnąć jak najszybciej wymarzony cel.</p>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col md="2">
+                                Obrazek                                
+                            </Col>
+                            <Col>
+                                <p>Dostaniesz ode mnie wiele cennych wskazówek.</p>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col md="2">
+                                Obrazek                                
+                            </Col>
+                            <Col>
+                                <p>Gwarantuje Ci lepsze samopoczucie i satysfakcję.</p>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col md="2">
+                                Obrazek                                
+                            </Col>
+                            <Col>
+                                <p>Pokaże Ci, że dieta i treningi to nie katorga, a coś co będziesz robić z przyjemnością.</p>
+                            </Col>
+                        </Row>
                     </Col>
                 </Row>
             </Container>

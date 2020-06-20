@@ -104,11 +104,13 @@ p{
 
 .advantages-section{
     background-color: #BB9847;
+    padding: 50px 0;
 }
 
 .advantages-section .section-title{
     text-align: center;
     border: 0;
+    margin-bottom: 50px;
 }
 
 @media (min-width: 576px){
