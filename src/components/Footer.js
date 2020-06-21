@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 import { Container, Nav, Row } from 'react-bootstrap';
 import pageLogo from '../assets/pageLogo.svg';
 
@@ -12,30 +12,30 @@ export const Footer = () => (
         </Row>
         <Row className="footer-nav justify-content-center">
             <Nav className="justify-content-center">
-                <Nav.Item>
+            <Nav.Item>
                     <Nav.Link>
-                        <Link to="jumbo">Start</Link>
+                        <Link activeClass="active" to="jumbo" smooth={true}>Start</Link>
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link>
-                        <Link to="about-me">O mnie</Link>
+                        <Link activeClass="active" to="about-me" smooth={true} offset={-100}>O mnie</Link>
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link>
-                        <Link to="offer-section">Oferta</Link>
+                        <Link activeClass="active" to="offer-section" smooth={true} offset={-100}>Oferta</Link>
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link>
-                        <Link to="advantages-section">Korzyści</Link>
+                        <Link activeClass="active" to="advantages-section" smooth={true} offset={-100}>Korzyści</Link>
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link>
-                         <Link to="contact-section">Kontakt</Link>
-                    </Nav.Link>
+                         <Link activeClass="active" to="contact-section" smooth={true} offset={-100}>Kontakt</Link>
+                         </Nav.Link>
                 </Nav.Item>
             </Nav>
         </Row>

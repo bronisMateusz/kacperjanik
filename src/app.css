@@ -13,15 +13,11 @@ p{
     font-family: 'Roboto', sans-serif;
 }
 
-.navbar{
+.main-nav{
     background-color: #141414;
 }
 
-.navbar-toggler-icon{
-    
-}
-
-.navbar-nav .nav-link {
+.main-nav .navbar-nav .nav-link {
     text-transform: uppercase;
 }
 
