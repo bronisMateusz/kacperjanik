@@ -13,6 +13,24 @@ p{
     font-family: 'Roboto', sans-serif;
 }
 
+.navbar{
+    background-color: #141414;
+}
+
+.navbar-toggler-icon{
+    
+}
+
+.navbar-nav .nav-link {
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-link:hover{
+    color: #FFFFFF;
+    font-weight: 700;
+    /*trzeba dopracować jeszcze !*/
+}
+
 .jumbo {
     margin: 0;
     padding: 0px 15px;
@@ -111,6 +129,25 @@ p{
     text-align: center;
     border: 0;
     margin-bottom: 50px;
+}
+
+.footer{
+    margin: 50px auto;
+    color: #A4A4A4;
+}
+
+.footer .footer-nav{
+    margin: 50px auto;
+}
+    
+.footer .footer-nav .nav-link{
+    color: rgba(255,255,255,.5);
+    text-transform: uppercase;
+}
+
+.footer .footer-nav .nav-link:hover{
+    color: #FFFFFF;
+    font-weight: 700;
 }
 
 @media (min-width: 576px){
