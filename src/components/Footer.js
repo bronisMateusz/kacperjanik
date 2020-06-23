@@ -4,13 +4,13 @@ import { Container, Nav, Row } from 'react-bootstrap';
 import pageLogo from '../assets/pageLogo.svg';
 
 export const Footer = () => (
-    <Container className="footer">
+    <Container className="footer p-4 pt-5 pb-5">
         <Row className="justify-content-center">
             <a href="#href">
                 <img src={pageLogo} alt="logo" height="50px" />
             </a>
         </Row>
-        <Row className="footer-nav justify-content-center">
+        <Row className="justify-content-center pt-5 pb-5">
             <Nav className="justify-content-center">
             <Nav.Item>
                     <Nav.Link>
@@ -40,7 +40,7 @@ export const Footer = () => (
             </Nav>
         </Row>
         <Row className="justify-content-center">
-            <p>Copyright&copy;{new Date().getFullYear()} bronisMateusz</p>
+            <a className="copy" href="http://fb.com/bronisMateusz" target="_blank">Copyright&copy;{new Date().getFullYear()} bronisMateusz</a>
         </Row>
     </Container>
 )

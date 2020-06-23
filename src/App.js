@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { Layout } from './components/Layout';
 import { Home } from './Home';
 import { Offer } from './Offer';
 import { Contact } from './Contact';
@@ -15,7 +14,6 @@ class App extends Component {
     return (
       <React.Fragment>
         <MainNav />
-        <Layout>
           <Router>
             <Switch>
               <Route exact path="/" component={Home} />
@@ -24,7 +22,6 @@ class App extends Component {
               <Route component={NoMatch} />
             </Switch>
           </Router>
-        </Layout>
         <Footer />
       </React.Fragment>
     );

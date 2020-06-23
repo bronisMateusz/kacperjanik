@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import { Navbar, Nav, Image} from 'react-bootstrap';
+import {Container, Navbar, Nav, Image} from 'react-bootstrap';
 import pageLogo from '../assets/pageLogo.svg';
 
 export const MainNav = () => (
-    <Navbar className="main-nav" variant="dark" expand="lg" fixed="top">
+    <Container fluid>
+        <Navbar className="main-nav" variant="dark" expand="lg" fixed="top">
         <Navbar.Brand href="/">
             <Image src={pageLogo} alt="logo" height="35px" />
         </Navbar.Brand>
@@ -18,25 +19,26 @@ export const MainNav = () => (
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link>
-                        <Link activeClass="active" to="about-me" smooth={true} offset={-100}>O mnie</Link>
+                        <Link activeClass="active" to="about-me" smooth={true}>O mnie</Link>
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link>
-                        <Link activeClass="active" to="offer-section" smooth={true} offset={-100}>Oferta</Link>
+                        <Link activeClass="active" to="offer-section" smooth={true}>Oferta</Link>
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link>
-                        <Link activeClass="active" to="advantages-section" smooth={true} offset={-100}>Korzyści</Link>
+                        <Link activeClass="active" to="advantages-section" smooth={true}>Korzyści</Link>
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link>
-                         <Link activeClass="active" to="contact-section" smooth={true} offset={-100}>Kontakt</Link>
+                         <Link activeClass="active" to="contact-section" smooth={true}>Kontakt</Link>
                          </Nav.Link>
                 </Nav.Item>
             </Nav>
         </Navbar.Collapse>
     </Navbar>
+    </Container> 
 )

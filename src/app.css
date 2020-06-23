@@ -11,6 +11,7 @@ h2,h3,h4,h5,h6{
 
 p{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 .main-nav{
@@ -28,15 +29,10 @@ p{
 }
 
 .jumbo {
-    margin: 0;
-    padding: 0px 15px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
     background: url('./assets/jumboImage.jpg') no-repeat bottom;
     background-size: cover;
     color: #FFFFFF;
-    height: 95vh;;
+    height: 95vh;
     z-index: -2;
     text-align:center;
 }
@@ -53,7 +49,6 @@ p{
     font-size: 3.75em;
     letter-spacing: 1.125rem;
     font-weight: 700;
-    margin-right: -20px;
     line-height: 1.25em;
 }
 
@@ -62,6 +57,7 @@ p{
     margin: 0;
     padding-left: 10px;
     border-left: 10px solid #FFFFFF;
+    color: #FFFFFF;
 }
 
 .section-title{
@@ -71,79 +67,81 @@ p{
 .section-subtitle{
     font-weight: 500;
     color: #A4A4A4;
-
 }
 
 .about-me {
-    background: url('./assets/aboutMeBackground.jpg') no-repeat;
-    padding: 50px 20px 0px;
-    margin: 0;
+    background: url('./assets/aboutMeBG.jpg') no-repeat;
+    background-size: cover;
+    padding-top: 16px;
+    padding-bottom: 0px;
+    text-align: justify;
 }
 
 .about-me .section-title {
-    margin-bottom: 25px;
-    color: #FFFFFF;
-}
-
-.about-me p{
-    text-align: justify;
+    text-align: left;
 }
 
 .offer-section{
     background-color: #141414;
     color: #FFFFFF;
+    text-align: justify;
 }
 
-.offer-section .offer-item{
-    margin: 50px auto;
-}
-
-.offer-section .offer-item .offer-price{
-    margin: 30px auto 10px;
-    font-size: 1.6rem;
+.offer-section .offer-price{
+    margin-top: 25px;
+    margin-bottom: 25px;
     font-weight: 700;
     text-transform: uppercase;
     text-align: left;
     color: #BB9847;
 }
 
-.offer-section .offer-item .offer-img{
-    padding: 0;
-}
-
-.offer-section .offer-item .offer-dscr{
-    text-align: justify;
-    margin: 0;
-}
-
 .advantages-section{
     background-color: #BB9847;
-    padding: 50px 0;
+    /*padding: 50px auto;
+    margin: 0;*/
 }
 
 .advantages-section .section-title{
     text-align: center;
     border: 0;
-    margin-bottom: 50px;
+    /*margin-bottom: 50px;*/
+}
+
+.contact-section{
+    background-color: #505050;
+    /*padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0;*/
+}
+
+.contact-section .section-title{
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
 }
 
 .footer{
-    margin: 50px auto;
     color: #A4A4A4;
 }
-
-.footer .footer-nav{
-    margin: 50px auto;
-}
-    
-.footer .footer-nav .nav-link{
+  
+.footer .nav-link{
     color: rgba(255,255,255,.5);
     text-transform: uppercase;
 }
 
-.footer .footer-nav .nav-link:hover{
+.footer .nav-link:hover{
     color: #FFFFFF;
     font-weight: 700;
+}
+
+.footer .copy{
+    color: #A4A4A4;
+}
+
+.footer .copy:hover{
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 @media (min-width: 576px){
@@ -151,81 +149,7 @@ p{
         text-align: right;
     }
 
-    .jumbo .jumbo-title{
-        letter-spacing: 2rem;
-        margin-right: -30px;
-    }
-
-    .about-me {
-        padding: 50px 0px 0px;
-    }
-}
-
-@media (min-width: 768px){
-    .jumbo .jumbo-subtitle {
-        font-size: 1.25em;
-        letter-spacing: 0.25rem;
-        margin: 0 25px 20px 0;
-    }
-    
-    .jumbo .jumbo-title {
-        font-size: 4em;
-        letter-spacing: 3rem;
-        margin-right: -20px;
-    }
-}
-
-@media (max-width: 991px){
-    .offer-section .offer-item .offer-info{
-        padding: 50px 50px 0px;
-    }
-}
-
-@media (min-width: 992px){
-    .jumbo .jumbo-subtitle {
-        margin-right: -25px;
-    }
-    
-    .jumbo .jumbo-title {
-        font-size: 4em;
-        letter-spacing: 3rem;
-        margin-right: -70px;
-    }
-
-    .offer-section .offer-item .offer-right{
-        padding: 0px 50px 0px 20px;
-    }
-
-    .offer-section .offer-item .offer-left{
-        padding: 0px 20px 0px 50px;
-    }
-}
-
-@media (max-width: 1199.98px){
-    .offer-section .offer-container{
-        margin: 0;
-        padding: 0;
-        max-width: 100%;
-    }
-}
-
-@media (min-width: 1200px){
-    .jumbo .jumbo-subtitle {
-        font-size: 1.5em;
-        letter-spacing: 0.25rem;
-    }
-    
-    .jumbo .jumbo-title {
-        font-size: 4.5em;
-        letter-spacing: 3rem;
-        margin-right: -70px;
-    }
-
-    .offer-section .offer-item .offer-right{
-        padding-right: 0px;
-    }
-
-    .offer-section .offer-item .offer-left{
-        padding-left: 0px;
+    .jumbo .jumbo-subtitle{
+        margin-right: 15px;
     }
 }
