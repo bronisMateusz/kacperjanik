@@ -100,27 +100,27 @@ p{
 
 .advantages-section{
     background-color: #BB9847;
-    /*padding: 50px auto;
-    margin: 0;*/
 }
 
 .advantages-section .section-title{
-    text-align: center;
     border: 0;
-    /*margin-bottom: 50px;*/
 }
 
 .contact-section{
     background-color: #505050;
-    /*padding-top: 50px;
-    padding-bottom: 50px;
-    margin: 0;*/
 }
 
 .contact-section .section-title{
     color: #FFFFFF;
-    text-align: center;
     border: none;
+}
+
+.contact-section .contact-btn{
+    background-color: #BB9847;
+    border: 0;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
 }
 
 .footer{

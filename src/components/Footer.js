@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import { Container, Nav, Row } from 'react-bootstrap';
+import { Container, Nav, Row, Image} from 'react-bootstrap';
 import pageLogo from '../assets/pageLogo.svg';
 
 export const Footer = () => (
     <Container className="footer p-4 pt-5 pb-5">
         <Row className="justify-content-center">
             <a href="#href">
-                <img src={pageLogo} alt="logo" height="50px" />
+                <Image src={pageLogo} alt="logo" height="50px" />
             </a>
         </Row>
         <Row className="justify-content-center pt-5 pb-5">

@@ -7,6 +7,7 @@ import offer3Img from './assets/offer3.jpg';
 import offer4Img from './assets/offer4.jpg';
 import offer5Img from './assets/offer5.jpg';
 import offer6Img from './assets/offer6.jpg';
+import {ReactComponent as adv1Img} from './assets/adv1.svg';
 
 export const Home = () => (
     <Container fluid>
@@ -108,86 +109,44 @@ export const Home = () => (
         </Row>
         <Row className="advantages-section p-4 pt-5">
             <Container>
-                <h2 className="section-title">Dlaczego warto podjąć ze mną współpracę?</h2>
+                <Row className="justify-content-center pb-5">
+                    <h2 className="section-title">Dlaczego warto podjąć ze mną współpracę?</h2>
+                </Row>
                 <Row>
                     <Col md="6">
                         <Row>
-                            <Col md="2">
-                                Obrazek                                
+                            <Col md="3">
+                                <adv1Img />
                             </Col>
-                            <Col>
+                            <Col>                            
                                 <p>Zapewnię Ci wiedzę popartą praktyką i doświadczeniem.</p>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col md="2">
-                                Obrazek                                
-                            </Col>
-                            <Col>
-                                <p>Zadbam by każdy element treningu był dopasowany do Twoich możliwości i celu.</p>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col md="2">
-                                Obrazek                                
-                            </Col>
-                            <Col>
-                                <p>Pomogę Ci wyrobić długotrwałe nawyki żywieniowe i treningowe </p>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col md="2">
-                                Obrazek                                
-                            </Col>
-                            <Col>
-                                <p>Nauczysz się jak komponować posiłki i nie mieć zbędnego stresu o dietę przed wyjściami czy wyjazdami.</p>
                             </Col>
                         </Row>
                     </Col>
                     <Col md="6">
                         <Row>
-                            <Col md="2">
-                                Obrazek                                
+                            <Col md="3">
+                                <Image src={adv1Img} alt="jakis obrazek"/>
                             </Col>
-                            <Col>
-                                <p>Stale będę kontrolował Twoje postępy i wprowadzał zmiany, by osiągnąć jak najszybciej wymarzony cel.</p>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col md="2">
-                                Obrazek                                
-                            </Col>
-                            <Col>
-                                <p>Dostaniesz ode mnie wiele cennych wskazówek.</p>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col md="2">
-                                Obrazek                                
-                            </Col>
-                            <Col>
-                                <p>Gwarantuje Ci lepsze samopoczucie i satysfakcję.</p>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col md="2">
-                                Obrazek                                
-                            </Col>
-                            <Col>
-                                <p>Pokaże Ci, że dieta i treningi to nie katorga, a coś co będziesz robić z przyjemnością.</p>
+                            <Col>                            
+                                <p>Zapewnię Ci wiedzę popartą praktyką i doświadczeniem.</p>
                             </Col>
                         </Row>
                     </Col>
                 </Row>
             </Container>
-        </Row> 
+        </Row>        
         <Row className="contact-section p-4 pt-5">
             <Container>
-                <h2 className="section-title">Kontakt</h2>
-                <div className="contact-button"></div>
-                <div className="contact-button"></div>
-                <Button className="contact-button" href="http://www.fb.com/kacperjanik" size="lg"></Button>
-                <Button className="contact-button" href="http://www.instagram.com/kacperjanik" size="lg"></Button>
+                <Row className="justify-content-center">
+                    <h2 className="section-title">Kontakt</h2>
+                </Row>
+                <Row className="justify-content-center">
+                    <Button className="contact-btn m-5" size="lg"></Button>
+                    <Button className="contact-btn m-5" size="lg"></Button>
+                    <Button className="contact-btn m-5" href="http://www.fb.com/kacperjanik" size="lg"></Button>
+                    <Button className="contact-btn m-5" href="http://www.instagram.com/kacperjanik" size="lg"></Button>
+                </Row>
             </Container>
         </Row>
     </Container>
