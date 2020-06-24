@@ -84,7 +84,6 @@ p{
 .offer-section{
     background-color: #141414;
     color: #FFFFFF;
-    text-align: justify;
 }
 
 .offer-section .offer-price{
@@ -92,8 +91,11 @@ p{
     margin-bottom: 25px;
     font-weight: 700;
     text-transform: uppercase;
-    text-align: left;
     color: #BB9847;
+}
+
+.offer-section .offer-dscr{
+    text-align: justify;
 }
 
 .advantages-section{
