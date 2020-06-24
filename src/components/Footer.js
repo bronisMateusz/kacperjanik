@@ -40,7 +40,7 @@ export const Footer = () => (
             </Nav>
         </Row>
         <Row className="justify-content-center">
-            <a className="copy" target="_blank" rel="noreferrer" href="http://fb.com/bronisMateusz">Copyright&copy;{new Date().getFullYear()} bronisMateusz</a>
+            <a className="copy" target="_blank" rel="noopener noreferrer" href="http://fb.com/bronisMateusz">Copyright&copy;{new Date().getFullYear()} bronisMateusz</a>
         </Row>
     </Container>
 )
