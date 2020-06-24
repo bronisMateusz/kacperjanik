@@ -7,7 +7,14 @@ import offer3Img from './assets/offer3.jpg';
 import offer4Img from './assets/offer4.jpg';
 import offer5Img from './assets/offer5.jpg';
 import offer6Img from './assets/offer6.jpg';
-import {ReactComponent as adv1Img} from './assets/adv1.svg';
+import {ReactComponent as Adv1Img} from './assets/adv1.svg';
+import {ReactComponent as Adv2Img} from './assets/adv2.svg';
+import {ReactComponent as Adv3Img} from './assets/adv3.svg';
+import {ReactComponent as Adv4Img} from './assets/adv4.svg';
+import {ReactComponent as Adv5Img} from './assets/adv5.svg';
+import {ReactComponent as Adv6Img} from './assets/adv6.svg';
+import {ReactComponent as Adv7Img} from './assets/adv7.svg';
+import {ReactComponent as Adv8Img} from './assets/adv8.svg';
 
 export const Home = () => (
     <Container fluid>
@@ -114,22 +121,88 @@ export const Home = () => (
                 </Row>
                 <Row>
                     <Col md="6">
-                        <Row>
-                            <Col md="3">
-                                <adv1Img />
+                        <Row className="mb-5">
+                            <Col sm="3">
+                                <Adv1Img className="advantage-img" />
                             </Col>
-                            <Col>                            
+                            <Col className="align-self-center">                            
                                 <p>Zapewnię Ci wiedzę popartą praktyką i doświadczeniem.</p>
                             </Col>
                         </Row>
                     </Col>
                     <Col md="6">
-                        <Row>
-                            <Col md="3">
-                                <Image src={adv1Img} alt="jakis obrazek"/>
+                        <Row className="mb-5">
+                            <Col sm="3">
+                                <Adv2Img className="advantage-img" />
                             </Col>
-                            <Col>                            
-                                <p>Zapewnię Ci wiedzę popartą praktyką i doświadczeniem.</p>
+                            <Col className="align-self-center">                            
+                                <p>Zadbam by każdy element treningu był dopasowany do Twoich możliwości i celu.</p>
+                            </Col>
+                        </Row>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md="6">
+                        <Row className="mb-5">
+                            <Col sm="3">
+                                <Adv3Img className="advantage-img" />
+                            </Col>
+                            <Col className="align-self-center">                            
+                                <p>Pomogę Ci wyrobić długotrwałe nawyki żywieniowe i treningowe.</p>
+                            </Col>
+                        </Row>
+                    </Col>
+                    <Col md="6">
+                        <Row className="mb-5">
+                            <Col sm="3">
+                                <Adv4Img className="advantage-img" />
+                            </Col>
+                            <Col className="align-self-center">                            
+                                <p>Nauczysz się jak komponować posiłki i nie mieć zbędnego stresu o dietę przed wyjściami czy wyjazdami.</p>
+                            </Col>
+                        </Row>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md="6">
+                        <Row className="mb-5">
+                            <Col sm="3">
+                                <Adv5Img className="advantage-img" />
+                            </Col>
+                            <Col className="align-self-center">                            
+                                <p>Stale będę kontrolował Twoje postępy i wprowadzał zmiany, by osiągnąć jak najszybciej wymarzony cel.</p>
+                            </Col>
+                        </Row>
+                    </Col>
+                    <Col md="6">
+                        <Row className="mb-5">
+                            <Col sm="3">
+                                <Adv6Img className="advantage-img" />
+                            </Col>
+                            <Col className="align-self-center">                            
+                                <p>Dostaniesz ode mnie wiele cennych wskazówek.</p>
+                            </Col>
+                        </Row>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md="6">
+                        <Row className="mb-5">
+                            <Col sm="3">
+                                <Adv7Img className="advantage-img" />
+                            </Col>
+                            <Col className="align-self-center">                            
+                                <p>Gwarantuje Ci lepsze samopoczucie i satysfakcję.</p>
+                            </Col>
+                        </Row>
+                    </Col>
+                    <Col md="6">
+                        <Row className="mb-5">
+                            <Col sm="3">
+                                <Adv8Img className="advantage-img" />
+                            </Col>
+                            <Col className="align-self-center">                            
+                                <p>Pokaże Ci, że dieta i treningi to nie katorga, a coś co będziesz robić z przyjemnością.</p>
                             </Col>
                         </Row>
                     </Col>

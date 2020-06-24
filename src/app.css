@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&family=Roboto:wght@400;700&display=swap');
 
 *{
     font-family: 'Raleway', sans-serif;
@@ -12,6 +12,7 @@ h2,h3,h4,h5,h6{
 p{
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    color: #141414;
 }
 
 .main-nav{
@@ -96,14 +97,23 @@ p{
 
 .offer-section .offer-dscr{
     text-align: justify;
+    color: #FFFFFF;
 }
 
 .advantages-section{
     background-color: #BB9847;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
 }
 
 .advantages-section .section-title{
+    color: #141414;
     border: 0;
+}
+
+.advantages-section .advantage-img{
+    max-height: 250px;
 }
 
 .contact-section{
@@ -111,7 +121,6 @@ p{
 }
 
 .contact-section .section-title{
-    color: #FFFFFF;
     border: none;
 }
 
