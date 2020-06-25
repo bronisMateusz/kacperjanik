@@ -15,6 +15,11 @@ import {ReactComponent as Adv5Img} from './assets/adv5.svg';
 import {ReactComponent as Adv6Img} from './assets/adv6.svg';
 import {ReactComponent as Adv7Img} from './assets/adv7.svg';
 import {ReactComponent as Adv8Img} from './assets/adv8.svg';
+import {ReactComponent as PhoneImg} from './assets/phone.svg';
+import {ReactComponent as MailImg} from './assets/mail.svg';
+import {ReactComponent as FbImg} from './assets/fb.svg';
+import {ReactComponent as IgImg} from './assets/ig.svg';
+
 
 export const Home = () => (
     <Container fluid>
@@ -123,7 +128,7 @@ export const Home = () => (
                     <Col md="6">
                         <Row className="mb-5">
                             <Col sm="3">
-                                <Adv1Img className="advantage-img" />
+                                <Adv1Img className="advantage-img mb-4 mb-sm-0" />
                             </Col>
                             <Col className="align-self-center">                            
                                 <p>Zapewnię Ci wiedzę popartą praktyką i doświadczeniem.</p>
@@ -133,7 +138,7 @@ export const Home = () => (
                     <Col md="6">
                         <Row className="mb-5">
                             <Col sm="3">
-                                <Adv2Img className="advantage-img" />
+                                <Adv2Img className="advantage-img mb-4 mb-sm-0" />
                             </Col>
                             <Col className="align-self-center">                            
                                 <p>Zadbam by każdy element treningu był dopasowany do Twoich możliwości i celu.</p>
@@ -145,7 +150,7 @@ export const Home = () => (
                     <Col md="6">
                         <Row className="mb-5">
                             <Col sm="3">
-                                <Adv3Img className="advantage-img" />
+                                <Adv3Img className="advantage-img mb-4 mb-sm-0" />
                             </Col>
                             <Col className="align-self-center">                            
                                 <p>Pomogę Ci wyrobić długotrwałe nawyki żywieniowe i treningowe.</p>
@@ -155,7 +160,7 @@ export const Home = () => (
                     <Col md="6">
                         <Row className="mb-5">
                             <Col sm="3">
-                                <Adv4Img className="advantage-img" />
+                                <Adv4Img className="advantage-img mb-4 mb-sm-0" />
                             </Col>
                             <Col className="align-self-center">                            
                                 <p>Nauczysz się jak komponować posiłki i nie mieć zbędnego stresu o dietę przed wyjściami czy wyjazdami.</p>
@@ -167,7 +172,7 @@ export const Home = () => (
                     <Col md="6">
                         <Row className="mb-5">
                             <Col sm="3">
-                                <Adv5Img className="advantage-img" />
+                                <Adv5Img className="advantage-img mb-4 mb-sm-0" />
                             </Col>
                             <Col className="align-self-center">                            
                                 <p>Stale będę kontrolował Twoje postępy i wprowadzał zmiany, by osiągnąć jak najszybciej wymarzony cel.</p>
@@ -177,7 +182,7 @@ export const Home = () => (
                     <Col md="6">
                         <Row className="mb-5">
                             <Col sm="3">
-                                <Adv6Img className="advantage-img" />
+                                <Adv6Img className="advantage-img mb-4 mb-sm-0" />
                             </Col>
                             <Col className="align-self-center">                            
                                 <p>Dostaniesz ode mnie wiele cennych wskazówek.</p>
@@ -189,7 +194,7 @@ export const Home = () => (
                     <Col md="6">
                         <Row className="mb-5">
                             <Col sm="3">
-                                <Adv7Img className="advantage-img" />
+                                <Adv7Img className="advantage-img mb-4 mb-sm-0" />
                             </Col>
                             <Col className="align-self-center">                            
                                 <p>Gwarantuje Ci lepsze samopoczucie i satysfakcję.</p>
@@ -199,7 +204,7 @@ export const Home = () => (
                     <Col md="6">
                         <Row className="mb-5">
                             <Col sm="3">
-                                <Adv8Img className="advantage-img" />
+                                <Adv8Img className="advantage-img mb-4 mb-sm-0" />
                             </Col>
                             <Col className="align-self-center">                            
                                 <p>Pokaże Ci, że dieta i treningi to nie katorga, a coś co będziesz robić z przyjemnością.</p>
@@ -214,11 +219,19 @@ export const Home = () => (
                 <Row className="justify-content-center">
                     <h2 className="section-title">Kontakt</h2>
                 </Row>
-                <Row className="justify-content-center">
-                    <Button className="contact-btn m-5" size="lg"></Button>
-                    <Button className="contact-btn m-5" size="lg"></Button>
-                    <Button className="contact-btn m-5" href="http://www.fb.com/kacperjanik" size="lg"></Button>
-                    <Button className="contact-btn m-5" href="http://www.instagram.com/kacperjanik" size="lg"></Button>
+                <Row className="justify-content-center fle">
+                    <Button className="contact-btn m-3 mt-5 mb-5 p-2" href="tel:535 952 491">
+                        <PhoneImg className="btn-pic" />
+                    </Button>
+                    <Button className="contact-btn m-3 mt-5 mb-5 p-2" href="mailto:health@kacperjanik.pl">
+                        <MailImg className="btn-pic" />
+                    </Button>
+                    <Button className="contact-btn m-3 mt-5 mb-5 p-2" target="_blank" href="http://www.fb.com/kacperjaniktbh">
+                        <FbImg className="btn-pic" />
+                    </Button>
+                    <Button className="contact-btn m-3 mt-5 mb-5 p-2" target="_blank" href="http://www.instagram.com/kacperjaniktbh">
+                        <IgImg className="btn-pic" />
+                    </Button>
                 </Row>
             </Container>
         </Row>

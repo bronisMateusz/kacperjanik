@@ -47,8 +47,8 @@ p{
 }
 
 .jumbo .jumbo-title {
-    font-size: 3.75em;
-    letter-spacing: 1.125rem;
+    font-size: 3.25em;
+    letter-spacing: 1rem;
     font-weight: 700;
     line-height: 1.25em;
 }
@@ -101,9 +101,9 @@ p{
 }
 
 .advantages-section{
-    background-color: #BB9847;
+    background: url('./assets/advBG.jpg') no-repeat;
+    background-size: cover;
     font-size: 1.5em;
-    font-weight: 700;
     text-align: center;
 }
 
@@ -113,7 +113,7 @@ p{
 }
 
 .advantages-section .advantage-img{
-    max-height: 250px;
+    max-height: 150px;
 }
 
 .contact-section{
@@ -128,8 +128,16 @@ p{
     background-color: #BB9847;
     border: 0;
     border-radius: 100px;
-    height: 50px;
-    width: 50px;
+    height: 65px;
+    width: 65px;
+}
+
+.contact-section .contact-btn:hover{
+    background-color: #FFFFFF;
+}
+
+.contact-section .contact-btn .btn-pic{
+    fill: #505050;
 }
 
 .footer{
@@ -162,5 +170,10 @@ p{
 
     .jumbo .jumbo-subtitle{
         margin-right: 15px;
+    }
+
+    .jumbo .jumbo-title{
+        font-size: 4em;
+        letter-spacing: 1.25rem;
     }
 }

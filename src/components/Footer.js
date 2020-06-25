@@ -6,7 +6,7 @@ import pageLogo from '../assets/pageLogo.svg';
 export const Footer = () => (
     <Container className="footer p-4 pt-5 pb-5">
         <Row className="justify-content-center">
-            <a href="#href">
+            <a href="/">
                 <Image src={pageLogo} alt="logo" height="50px" />
             </a>
         </Row>

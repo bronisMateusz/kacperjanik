@@ -9,25 +9,25 @@ export const MainNav = () => (
         <Navbar.Brand href="/">
             <Image src={pageLogo} alt="logo" height="35px" />
         </Navbar.Brand>
-        <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
+        <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
         <Navbar.Collapse id="navbar-toggle">
-            <Nav className="ml-auto">
-                <Nav.Item>
+            <Nav className="align-items-center m-5 m-lg-1 ml-lg-auto">
+                <Nav.Item className="mb-4 mb-lg-0">
                     <Nav.Link>
                         <Link activeClass="active" to="jumbo" smooth={true}>Start</Link>
                     </Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
+                <Nav.Item className="mb-4 mb-lg-0">
                     <Nav.Link>
                         <Link activeClass="active" to="about-me" smooth={true}>O mnie</Link>
                     </Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
+                <Nav.Item className="mb-4 mb-lg-0">
                     <Nav.Link>
                         <Link activeClass="active" to="offer-section" smooth={true}>Oferta</Link>
                     </Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
+                <Nav.Item className="mb-4 mb-lg-0">
                     <Nav.Link>
                         <Link activeClass="active" to="advantages-section" smooth={true}>Korzyści</Link>
                     </Nav.Link>
