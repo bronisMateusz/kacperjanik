@@ -29,7 +29,7 @@ export const MainNav = () => (
                 </Nav.Item>
                 <Nav.Item className="mb-4 mb-lg-0">
                     <Nav.Link>
-                        <Link activeClass="active" to="advantages-section" smooth={true}>Korzyści</Link>
+                        <Link activeClass="active" to="advantages-section" smooth={true} offset={-50}>Korzyści</Link>
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>

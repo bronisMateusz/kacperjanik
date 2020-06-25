@@ -118,10 +118,12 @@ p{
 
 .contact-section{
     background-color: #505050;
+    text-align: center;
 }
 
-.contact-section .section-title{
-    border: none;
+.contact-section .section-title,
+.contact-section .section-subtitle{
+    border: 0;
 }
 
 .contact-section .contact-btn{
