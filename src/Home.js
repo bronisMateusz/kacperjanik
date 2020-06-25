@@ -25,9 +25,9 @@ import {ReactComponent as IgImg} from './assets/ig.svg';
 Aos.init();
 export const Home = () => (
     <Container fluid>
-        <Row className="jumbo align-content-center">
+        <Row className="jumbo">
             <Container>
-                <Row>
+                <Row className="jumbo-wrapper align-items-center">
                     <Col lg={{span: 7, offset: 5}} data-aos="zoom-in" data-aos-duration="1000">
                         <h3 className="jumbo-subtitle">trener personalny</h3>
                         <h2 className="jumbo-title">Kacper<br />Janik</h2>

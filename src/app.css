@@ -38,6 +38,10 @@ p{
     text-align:center;
 }
 
+.jumbo .jumbo-wrapper{
+    height: 95vh;
+}
+
 .jumbo .jumbo-subtitle {
     color: #A4A4A4;
     font-size: 1.25em;
