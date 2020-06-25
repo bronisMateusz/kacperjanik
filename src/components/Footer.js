@@ -19,22 +19,22 @@ export const Footer = () => (
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link>
-                        <Link activeClass="active" to="about-me" smooth={true} offset={-100}>O mnie</Link>
+                        <Link activeClass="active" to="about-me" smooth={true}>O mnie</Link>
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link>
-                        <Link activeClass="active" to="offer-section" smooth={true} offset={-100}>Oferta</Link>
+                        <Link activeClass="active" to="offer-section" smooth={true}>Oferta</Link>
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link>
-                        <Link activeClass="active" to="advantages-section" smooth={true} offset={-100}>Korzyści</Link>
+                        <Link activeClass="active" to="advantages-section" smooth={true} offset={-50}>Korzyści</Link>
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link>
-                         <Link activeClass="active" to="contact-section" smooth={true} offset={-100}>Kontakt</Link>
+                         <Link activeClass="active" to="contact-section" smooth={true}>Kontakt</Link>
                          </Nav.Link>
                 </Nav.Item>
             </Nav>
