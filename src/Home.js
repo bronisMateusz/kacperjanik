@@ -1,7 +1,5 @@
 import React from 'react';
 import {Container, Row, Col, Image, Button} from 'react-bootstrap';
-import Aos from "aos";
-import "aos/dist/aos.css";
 import meImage from './assets/meImage.png';
 import offer1Img from './assets/offer1.jpg';
 import offer2Img from './assets/offer2.jpg';
@@ -22,13 +20,12 @@ import {ReactComponent as MailImg} from './assets/mail.svg';
 import {ReactComponent as FbImg} from './assets/fb.svg';
 import {ReactComponent as IgImg} from './assets/ig.svg';
 
-Aos.init();
 export const Home = () => (
     <Container fluid>
         <Row className="jumbo">
             <Container>
                 <Row className="jumbo-wrapper align-items-center">
-                    <Col lg={{span: 7, offset: 5}} data-aos="zoom-in" data-aos-duration="1000">
+                    <Col lg={{span: 7, offset: 5}} data-aos="zoom-in">
                         <h3 className="jumbo-subtitle">trener personalny</h3>
                         <h2 className="jumbo-title">Kacper<br />Janik</h2>
                     </Col>
@@ -38,12 +35,12 @@ export const Home = () => (
         <Row className="about-me">
             <Container className="pl-4 pr-4 pt-5">
                 <Row>
-                    <Col md="6" className="align-self-center pb-5" data-aos="fade-left" data-aos-duration="1500">
+                    <Col md="6" className="align-self-center pb-5" data-aos="fade-up">
                         <h2 className="section-title">Cześć,</h2>
                         <p className="pt-4">Mam na imię Kacper i jestem certyfikowanym trenerem personalnym oraz podejmuję studia na warszawskiej uczelni na kierunku dietetyki klinicznej.<br /><br />Jeśli chodzi o moje doświadczenie trenerskie - specjalizuje się w prowadzeniu treningów odpowiednio sprecyzowanych pod daną osobę (budowa siły, typowa hipertrofia mięśniowa, maksymalizacja spalania tkanki tłuszczowej), a także układaniu diet oraz planów treningowych z myślą zarówno o redukcji tkanki tłuszczowej jak i o budowaniu masy mięśniowej. Dodatkowo jestem osobą przygotowującą się do swojego pierwszego startu w zawodach sylwetkowych. W trakcie okresu przygotowań sprawdzam czy teoria ma realne przełożenie na praktykę. Wszystko po to by wiedzieć jak najlepiej współpracować z podopiecznymi.<br /><br />Całość będzie indywidualnie dopasowana do Twoich możliwości. Gwarantuję Ci, że wyjście na ćwiczenia to nie będzie przymus, a przyjemność! Zmiana myślenia, pozytywne nastawienie i dobre samopoczucie to cechy, które zagoszczą u Ciebie na co dzień dzięki podjęciu nowej aktywności fizycznej oraz wprowadzeniu zmian żywieniowych.</p>
                     </Col>
                     <Col md="6" className="align-self-end">
-                        <Image src={meImage} fluid data-aos="fade-right" data-aos-duration="1500"/>
+                        <Image src={meImage} fluid data-aos="fade-up" />
                     </Col>
                 </Row>
             </Container>
@@ -61,7 +58,7 @@ export const Home = () => (
                         <p className="offer-dscr">W ramach tej opcji otrzymasz ode mnie elastyczną dietę dopasowaną indywidualnie dla Ciebie. Nie wyznaczam Ci sztywnych założeń co do produktów, które będziesz spożywać. Posiłki możesz komponować w dowolny sposób odpowiadający Twoim preferencjom korzystając z wytycznych i wskazówek, które ułatwią Ci drogę do wyznaczonego celu. Taki schemat diety z pewnością Ci się spodoba, a co najważniejsze będzie skuteczny i wyrobi w Tobie dobre i długotrwałe nawyki żywieniowe.</p>
                     </Col>
                 </Row>
-                <Row data-aos="fade-up" data-aos-duration="1500">
+                <Row data-aos="fade-up">
                     <Col md={{span: 5, order: 4}} className="offer-img align-self-center">
                         <Image src={offer2Img} fluid />
                     </Col>
@@ -72,7 +69,7 @@ export const Home = () => (
                         <p className="offer-dscr">Marzysz o poprawie swojej masy mięśniowej? A może chcesz zyskać więcej siły, wzmocnić wytrzymałość lub wydolność? Być może chcesz po prostu zacząć swoją przygodę z siłownią i nie wiesz jak się do tego zabrać w najlepszy sposób? Rozpisany przeze mnie plan treningowy indywidualnie dla Ciebie z pewnością Ci to wszystko ułatwi! </p>
                     </Col>
                 </Row>
-                <Row data-aos="fade-up" data-aos-duration="1500">
+                <Row data-aos="fade-up">
                     <Col md={{span: 5, order: 5}} className="offer-img align-self-center">
                         <Image src={offer3Img} fluid />
                     </Col>
@@ -84,7 +81,7 @@ export const Home = () => (
                         <p className="offer-dscr">Spersonalizowany dla Ciebie pakiet pozwoli Ci w odpowiedni sposób połączyć treningi z dietą i uzupełnieniem wszystkiego suplementacją dla osiągnięcia jak najlepszych efektów. Uwzględnia oczywiście też Twoje preferencje oraz zastrzeżenia. </p>
                     </Col>
                 </Row>
-                <Row data-aos="fade-up" data-aos-duration="1500">
+                <Row data-aos="fade-up">
                     <Col md={{span: 5, order: 8}} className="offer-img align-self-center">
                         <Image src={offer4Img} fluid />
                     </Col>
@@ -96,7 +93,7 @@ export const Home = () => (
                         <p className="offer-dscr">Jest to połączenie wszystkich powyższych pakietów wraz z możliwością konsultacji na bieżąco Twoich postępów, zastrzeżeń i rozwiązywania wszelkich wątpliwości. Ponadto regularnie, w wyznaczonym przeze mnie czasie, wysyłasz raporty z poszczególnymi parametrami i tym jak przepracowałeś otrzymane założenia dietetyczno-treningowe, dzięki czemu w łatwy sposób będziemy mogli wprowadzać zmiany dla uzyskiwania ciągłych efektów.</p>
                     </Col>
                 </Row>
-                <Row data-aos="fade-up" data-aos-duration="1500">
+                <Row data-aos="fade-up">
                     <Col md={{span: 5, order: 9}} className="offer-img align-self-center">
                         <Image src={offer5Img} fluid />
                     </Col>
@@ -107,7 +104,7 @@ export const Home = () => (
                         <p className="offer-dscr">Ta opcja dotyczy indywidualnych treningów pod moim okiem na siłowni dzięki czemu będziesz miał/a pewność, że wszystko wykonujesz z dbałością o każdy szczegół.</p>
                     </Col>
                 </Row>
-                <Row data-aos="fade-up" data-aos-duration="1500">
+                <Row data-aos="fade-up">
                     <Col md={{span: 5, order: 12}} className="offer-img align-self-center">
                         <Image src={offer6Img} fluid />
                     </Col>
@@ -124,11 +121,11 @@ export const Home = () => (
         <Row className="advantages-section p-4 pt-5" >
             <Container>
                 <Row className="justify-content-center pb-5">
-                    <h2 className="section-title" data-aos="zoom-in" data-aos-duration="1500">Dlaczego warto podjąć ze mną współpracę?</h2>
+                    <h2 className="section-title" data-aos="zoom-in">Dlaczego warto podjąć ze mną współpracę?</h2>
                 </Row>
                 <Row>
-                    <Col md="6" data-aos="fade-right" data-aos-duration="1500">
-                        <Row className="mb-5">
+                    <Col md="6">
+                        <Row className="mb-5" data-aos="fade-up">
                             <Col sm="3">
                                 <Adv1Img className="advantage-img mb-4 mb-sm-0" />
                             </Col>
@@ -137,8 +134,8 @@ export const Home = () => (
                             </Col>
                         </Row>
                     </Col>
-                    <Col md="6" data-aos="fade-left" data-aos-duration="1500">
-                        <Row className="mb-5">
+                    <Col md="6">
+                        <Row className="mb-5" data-aos="fade-up">
                             <Col sm="3">
                                 <Adv2Img className="advantage-img mb-4 mb-sm-0" />
                             </Col>
@@ -149,8 +146,8 @@ export const Home = () => (
                     </Col>
                 </Row>
                 <Row>
-                    <Col md="6" data-aos="fade-right" data-aos-duration="1500">
-                        <Row className="mb-5">
+                    <Col md="6">
+                        <Row className="mb-5" data-aos="fade-up">
                             <Col sm="3">
                                 <Adv3Img className="advantage-img mb-4 mb-sm-0" />
                             </Col>
@@ -159,8 +156,8 @@ export const Home = () => (
                             </Col>
                         </Row>
                     </Col>
-                    <Col md="6" data-aos="fade-left" data-aos-duration="1500">
-                        <Row className="mb-5">
+                    <Col md="6">
+                        <Row className="mb-5" data-aos="fade-up">
                             <Col sm="3">
                                 <Adv4Img className="advantage-img mb-4 mb-sm-0" />
                             </Col>
@@ -171,8 +168,8 @@ export const Home = () => (
                     </Col>
                 </Row>
                 <Row>
-                    <Col md="6" data-aos="fade-right" data-aos-duration="1500">
-                        <Row className="mb-5">
+                    <Col md="6">
+                        <Row className="mb-5" data-aos="fade-up">
                             <Col sm="3">
                                 <Adv5Img className="advantage-img mb-4 mb-sm-0" />
                             </Col>
@@ -181,8 +178,8 @@ export const Home = () => (
                             </Col>
                         </Row>
                     </Col>
-                    <Col md="6" data-aos="fade-left" data-aos-duration="1500">
-                        <Row className="mb-5">
+                    <Col md="6">
+                        <Row className="mb-5" data-aos="fade-up">
                             <Col sm="3">
                                 <Adv6Img className="advantage-img mb-4 mb-sm-0" />
                             </Col>
@@ -193,8 +190,8 @@ export const Home = () => (
                     </Col>
                 </Row>
                 <Row>
-                    <Col md="6" data-aos="fade-right" data-aos-duration="1500">
-                        <Row className="mb-5">
+                    <Col md="6">
+                        <Row className="mb-5" data-aos="fade-up">
                             <Col sm="3">
                                 <Adv7Img className="advantage-img mb-4 mb-sm-0" />
                             </Col>
@@ -203,8 +200,8 @@ export const Home = () => (
                             </Col>
                         </Row>
                     </Col>
-                    <Col md="6" data-aos="fade-left" data-aos-duration="1500">
-                        <Row className="mb-5">
+                    <Col md="6">
+                        <Row className="mb-5" data-aos="fade-up">
                             <Col sm="3">
                                 <Adv8Img className="advantage-img mb-4 mb-sm-0" />
                             </Col>
