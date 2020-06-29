@@ -1,6 +1,7 @@
 {
-    "short_name": "Kacper Janik TBH",
     "name": "Kacper Janik | To be healthier",
+    "short_name": "Kacper Janik TBH",
+    "description": "Certyfikowany trener personalny, który zadba o Twoją dietę oraz pomoże Ci osiągnąć zamierzone cele. Gwarantuję Ci, że będzie to przyjemność! :)",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -15,6 +16,6 @@
     ],
     "start_url": ".",
     "display": "standalone",
-    "theme_color": "#000000",
-    "background_color": "#ffffff"
+    "theme_color": "#141414",
+    "background_color": "#141414"
   }
