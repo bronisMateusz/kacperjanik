@@ -30,7 +30,7 @@ p{
 }
 
 .jumbo {
-    background: url('./assets/jumboImage.jpg') no-repeat bottom;
+    background: url('./assets/jumboImage.webp') no-repeat bottom;
     background-size: cover;
     color: #FFFFFF;
     height: 95vh;
@@ -75,7 +75,7 @@ p{
 }
 
 .about-me {
-    background: url('./assets/aboutMeBG.jpg') no-repeat;
+    background: url('./assets/aboutMeBG.webp') no-repeat;
     background-size: cover;
     padding-top: 16px;
     padding-bottom: 0px;
@@ -105,7 +105,7 @@ p{
 }
 
 .advantages-section{
-    background: url('./assets/advBG.jpg') no-repeat;
+    background: url('./assets/advBG.webp') no-repeat;
     background-size: cover;
     font-size: 1.5em;
     text-align: center;
