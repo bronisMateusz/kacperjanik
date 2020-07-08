@@ -222,16 +222,16 @@ export const Home = () => (
                     </Col>
                 </Row>
                 <Row className="justify-content-center fle" data-aos="zoom-in" data-aos-duration="1500">
-                    <Button className="contact-btn m-3 mt-5 mb-5 p-2" href="tel:535 952 491">
+                    <Button className="contact-btn m-3 mt-5 mb-5 p-2" href="tel:535 952 491" aria-label="Zadzwoń">
                         <PhoneImg className="btn-pic" />
                     </Button>
-                    <Button className="contact-btn m-3 mt-5 mb-5 p-2" href="mailto:health@kacperjanik.pl">
+                    <Button className="contact-btn m-3 mt-5 mb-5 p-2" href="mailto:health@kacperjanik.pl" aria-label="Wyślij e-mail">
                         <MailImg className="btn-pic" />
                     </Button>
-                    <Button className="contact-btn m-3 mt-5 mb-5 p-2" target="_blank" href="http://www.fb.com/kacperjaniktbh">
+                    <Button className="contact-btn m-3 mt-5 mb-5 p-2" target="_blank" href="http://www.fb.com/kacperjaniktbh" rel="noopener noreferrer" aria-label="Otwórz Facebook">
                         <FbImg className="btn-pic" />
                     </Button>
-                    <Button className="contact-btn m-3 mt-5 mb-5 p-2" target="_blank" href="http://www.instagram.com/kacperjaniktbh">
+                    <Button className="contact-btn m-3 mt-5 mb-5 p-2" target="_blank" href="http://www.instagram.com/kacperjaniktbh" rel="noopener noreferrer" aria-label="Otwórz Instagram">
                         <IgImg className="btn-pic" />
                     </Button>
                 </Row>
