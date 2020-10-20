@@ -9,7 +9,9 @@ export const MainNav = () => (
         <Navbar.Brand href="/">
             <Image src={pageLogo} alt="logo" height="35px" />
         </Navbar.Brand>
-        <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
+        <Navbar.Toggle className="pr-0 border-0" aria-controls="navbar-toggle">
+            <span class="icon-bar"></span>
+        </Navbar.Toggle>
         <Navbar.Collapse id="navbar-toggle">
             <Nav className="align-items-center m-5 m-lg-1 ml-lg-auto">
                 <Nav.Item className="mb-4 mb-lg-0">

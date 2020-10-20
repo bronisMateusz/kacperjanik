@@ -19,6 +19,66 @@ p{
     background-color: #141414;
 }
 
+.main-nav .navbar-toggler{
+    position: relative;
+    height: 18px;
+    width: 26px;
+}
+
+.main-nav .navbar-toggler:focus{
+    outline: none;
+}
+
+.main-nav .navbar-toggler .icon-bar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 26px;
+    height: 2px;
+    transition-timing-function: ease;
+    transition-duration: .15s;
+    transition-property: transform;
+    border-radius: 4px;
+    transition-delay: .22s;
+}
+
+.main-nav .navbar-toggler .icon-bar::before,
+.main-nav .navbar-toggler .icon-bar::after{
+    display: block;
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #A4A4A4;
+}
+
+.main-nav .navbar-toggler .icon-bar::before{
+    top: 0px;
+    transition: top .1s cubic-bezier(.33333,.66667,.66667,1) .2s,transform .13s cubic-bezier(.55,.055,.675,.19);
+    transform: translate3d(0,8px,0) rotate(45deg);
+}
+
+.main-nav .navbar-toggler .icon-bar::after{
+    top: 0px;
+    transition: top .2s cubic-bezier(.33333,.66667,.66667,1) .2s,transform .13s cubic-bezier(.55,.055,.675,.19);
+    transform: translate3d(0,8px,0) rotate(-45deg);
+}
+
+.main-nav .navbar-toggler.collapsed .icon-bar{
+    background-color: #A4A4A4;
+}
+
+.main-nav .navbar-toggler.collapsed .icon-bar::before{
+    top: 0;
+    transform: translate3d(0,8px,0) rotate(0deg);
+}
+
+.main-nav .navbar-toggler.collapsed .icon-bar::after{
+    top: 0;
+    transform: translate3d(0,16px,0) rotate(0deg);
+}
+
 .main-nav .navbar-nav .nav-link {
     text-transform: uppercase;
 }
@@ -30,7 +90,7 @@ p{
 }
 
 .jumbo {
-    background: url('./assets/jumboImage.webp') no-repeat bottom;
+    background: url('./assets/jumboImage.jpg') no-repeat bottom;
     background-size: cover;
     color: #FFFFFF;
     height: 95vh;
@@ -75,7 +135,7 @@ p{
 }
 
 .about-me {
-    background: url('./assets/aboutMeBG.webp') no-repeat;
+    background: url('./assets/aboutMeBG.jpg') no-repeat;
     background-size: cover;
     padding-top: 16px;
     padding-bottom: 0px;
@@ -105,7 +165,7 @@ p{
 }
 
 .advantages-section{
-    background: url('./assets/advBG.webp') no-repeat;
+    background: url('./assets/advBG.jpg') no-repeat;
     background-size: cover;
     font-size: 1.5em;
     text-align: center;
@@ -146,7 +206,7 @@ p{
     fill: #505050;
 }
 
-.footer{
+.footer p{
     color: #A4A4A4;
 }
   

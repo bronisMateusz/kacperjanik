@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import { Container, Nav, Row, Image} from 'react-bootstrap';
+import { Container, Nav, Row, Col, Image} from 'react-bootstrap';
 import pageLogo from '../assets/pageLogo.svg';
 
 export const Footer = () => (
@@ -39,8 +39,11 @@ export const Footer = () => (
                 </Nav.Item>
             </Nav>
         </Row>
-        <Row className="justify-content-center">
-            <a className="copy" target="_blank" rel="noopener noreferrer" href="http://fb.com/bronisMateusz">Copyright&copy;{new Date().getFullYear()} bronisMateusz</a>
+        <Row className="justify-content-center mb-3">
+            <p>Copyright&copy;{new Date().getFullYear()} Kacper Janik</p>
+        </Row>
+        <Row className="justify-content-center mb-5">    
+            <p>DESIGN BY <a className="copy" target="_blank" rel="noopener noreferrer" href="http://www.github.com/bronisMateusz">bronisMateusz</a></p>
         </Row>
     </Container>
 )
