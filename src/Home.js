@@ -40,7 +40,7 @@ export const Home = () => (
                         <p className="pt-4">Mam na imię Kacper i jestem certyfikowanym trenerem personalnym oraz podejmuję studia na warszawskiej uczelni na kierunku dietetyki klinicznej.<br /><br />Jeśli chodzi o moje doświadczenie trenerskie - specjalizuje się w prowadzeniu treningów odpowiednio sprecyzowanych pod daną osobę (budowa siły, typowa hipertrofia mięśniowa, maksymalizacja spalania tkanki tłuszczowej), a także układaniu diet oraz planów treningowych z myślą zarówno o redukcji tkanki tłuszczowej jak i o budowaniu masy mięśniowej. Dodatkowo jestem osobą przygotowującą się do swojego pierwszego startu w zawodach sylwetkowych. W trakcie okresu przygotowań sprawdzam czy teoria ma realne przełożenie na praktykę. Wszystko po to by wiedzieć jak najlepiej współpracować z podopiecznymi.<br /><br />Całość będzie indywidualnie dopasowana do Twoich możliwości. Gwarantuję Ci, że wyjście na ćwiczenia to nie będzie przymus, a przyjemność! Zmiana myślenia, pozytywne nastawienie i dobre samopoczucie to cechy, które zagoszczą u Ciebie na co dzień dzięki podjęciu nowej aktywności fizycznej oraz wprowadzeniu zmian żywieniowych.</p>
                     </Col>
                     <Col md="6" className="align-self-end">
-                        <Image src={meImage} alt="moje zdjęcie" fluid data-aos="fade-up" />
+                        <Image src={meImage} alt="moje zdjęcie" width="100%" height="100%" fluid data-aos="fade-up" />
                     </Col>
                 </Row>
             </Container>
@@ -49,7 +49,7 @@ export const Home = () => (
             <Container className="pt-5 pb-5 p-4">
                 <Row data-aos="fade-up" data-aos-duration="1500">
                     <Col md={{span: 5, order: 1}} className="offer-img align-self-center">
-                        <Image src={offer1Img} alt="zdjęcie oferty" fluid />
+                        <Image src={offer1Img} width="100%" height="100%" alt="zdjęcie oferty" fluid />
                     </Col>
                     <Col md={{span: 7, order: 2}} className="offer-info pt-5 pb-5 align-self-center">
                         <h6 className="section-subtitle">indywidualnie rozpisana</h6>
@@ -60,7 +60,7 @@ export const Home = () => (
                 </Row>
                 <Row data-aos="fade-up">
                     <Col md={{span: 5, order: 4}} className="offer-img align-self-center">
-                        <Image src={offer2Img} alt="zdjęcie oferty" fluid />
+                        <Image src={offer2Img} width="100%" height="100%" alt="zdjęcie oferty" fluid />
                     </Col>
                     <Col md={{span: 7, order: 3}} className="offer-info pt-5 pb-5 align-self-center">
                         <h6 className="section-subtitle">indywidualnie dopasowany</h6>
@@ -71,7 +71,7 @@ export const Home = () => (
                 </Row>
                 <Row data-aos="fade-up">
                     <Col md={{span: 5, order: 5}} className="offer-img align-self-center">
-                        <Image src={offer3Img} alt="zdjęcie oferty" fluid />
+                        <Image src={offer3Img} width="100%" height="100%" alt="zdjęcie oferty" fluid />
                     </Col>
                     <Col md={{span: 7, order: 6}} className="offer-info pt-5 pb-5 align-self-center">
                         <h6 className="section-subtitle">specjalnie dobrany</h6>
@@ -83,7 +83,7 @@ export const Home = () => (
                 </Row>
                 <Row data-aos="fade-up">
                     <Col md={{span: 5, order: 8}} className="offer-img align-self-center">
-                        <Image src={offer4Img} alt="zdjęcie oferty" fluid />
+                        <Image src={offer4Img} width="100%" height="100%" alt="zdjęcie oferty" fluid />
                     </Col>
                     <Col md={{span: 7, order: 7}} className="offer-info pt-5 pb-5 align-self-center">
                         <h6 className="section-subtitle">doskonały</h6>
@@ -95,7 +95,7 @@ export const Home = () => (
                 </Row>
                 <Row data-aos="fade-up">
                     <Col md={{span: 5, order: 9}} className="offer-img align-self-center">
-                        <Image src={offer5Img} alt="zdjęcie oferty" fluid />
+                        <Image src={offer5Img} width="100%" height="100%" alt="zdjęcie oferty" fluid />
                     </Col>
                     <Col md={{span: 7, order: 10}} className="offer-info pt-5 pb-5 align-self-center">
                         <h6 className="section-subtitle">trening</h6>
@@ -106,7 +106,7 @@ export const Home = () => (
                 </Row>
                 <Row data-aos="fade-up">
                     <Col md={{span: 5, order: 12}} className="offer-img align-self-center">
-                        <Image src={offer6Img} alt="zdjęcie oferty" fluid />
+                        <Image src={offer6Img} width="100%" height="100%" alt="zdjęcie oferty" fluid />
                     </Col>
                     <Col md={{span: 7, order: 11}} className="offer-info pt-5 pb-5 align-self-center">
                         <h6 className="section-subtitle">trening</h6>

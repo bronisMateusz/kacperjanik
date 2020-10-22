@@ -7,7 +7,7 @@ export const MainNav = () => (
     <Container fluid>
         <Navbar className="main-nav" variant="dark" expand="lg" fixed="top">
         <Navbar.Brand href="/">
-            <Image src={pageLogo} alt="logo" height="35px" />
+            <Image src={pageLogo} width="153px" height="35px" alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle className="pr-0 border-0" aria-controls="navbar-toggle">
             <span class="icon-bar"></span>

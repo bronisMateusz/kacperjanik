@@ -12,9 +12,15 @@
             "src": "/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
+        },
+        {
+            "src": "/maskable_icon.png",
+            "sizes": "196x196",
+            "type": "image/png",
+            "purpose": "maskable"
         }
     ],
-    "start_url": ".",
+    "start_url": "https://kacperjanik.pl/",
     "display": "standalone",
     "theme_color": "#141414",
     "background_color": "#141414"
