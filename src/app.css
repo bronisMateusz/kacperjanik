@@ -121,8 +121,8 @@ p{
 .section-subtitle{
     margin: 0;
     padding-left: 10px;
-    border-left: 10px solid #FFFFFF;
-    color: #FFFFFF;
+    border-left: 10px solid #BB9847;
+    color: #BB9847;
 }
 
 .section-title{
@@ -151,15 +151,8 @@ p{
     color: #FFFFFF;
 }
 
-.offer-section .offer-price{
-    margin-top: 25px;
-    margin-bottom: 25px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #BB9847;
-}
-
 .offer-section .offer-dscr{
+    margin-top: 25px;
     text-align: justify;
     color: #FFFFFF;
 }
